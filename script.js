@@ -59,7 +59,7 @@ toggleSwitch.addEventListener('click', function() {
         toggleSwitch.classList.add('night');
         body.style.backgroundColor = '#2C3E50';
         header.style.backgroundColor = '#34495E51';
-        logoImage.src = 'assets/Test 2.1.png';
+        logoImage.src = './assets/test2.1.png';
         contactSideContainer.style.backgroundColor = '#fdfffd';
         socialSideContainer.style.backgroundColor = '#fdfffd';
         contactIcon.style.color = '#34495E';
@@ -80,7 +80,7 @@ toggleSwitch.addEventListener('click', function() {
         toggleSwitch.classList.add('day');
         body.style.backgroundColor = '#bdd2af';
         header.style.backgroundColor = '#f8f9fa51';
-        logoImage.src = 'assets/Test 2.2.png';
+        logoImage.src = './assets/test2.2.png';
         contactSideContainer.style.backgroundColor = '#223233';
         socialSideContainer.style.backgroundColor = '#223233';
         contactIcon.style.color = '#fdfffd';
