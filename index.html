@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" >
+<!-- Head -->
+<head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Al Rifat Sabbir">
+    <meta name="description" content="This is a simple website for testing purpose">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Assets/Icon.png" type="image/x-icon">
+    <title>AL RIFAT SABBIR</title>
+</head>
+<!-- Body -->
+<body class="window_body" id="window_body" onload="loader()">
+    
+<!-- Loader -->
+    <div class="loader_container">
+        <div class="loader_image">
+            <img src="Assets/Test 1.1.png" alt="Loader Image">
+        </div>
+    </div>
+<!-- Header -->
+    <header class="header">
+        <div class="header_container">
+            <div class="logo">
+                <a href="#home" class="logo_link">
+                    <img src="Assets/Test 2.2.png" alt="Logo" class="logo_image">
+                </a>
+            </div>
+            <div class="navbar">
+                <ul class="navbar_list">
+                    <li class="navbar_item"><a href="#home" class="navbar_link hov" >Home</a></li>
+                    <li class="navbar_item"><a href="#about" class="navbar_link hov" >About</a></li>
+                    <li class="navbar_item"><a href="#services" class="navbar_link hov" >Services</a></li>
+                    <li class="navbar_item"><a href="#portfolio" class="navbar_link hov" >Portfolio</a></li>
+                    <li class="navbar_item"><a href="#skills" class="navbar_link hov" >Skills</a></li>
+                    <li class="navbar_item"><a href="#projects" class="navbar_link hov">Projects</a></li>
+                    <li class="navbar_item"><a href="#contact" class="navbar_link hov" >Contact</a></li>
+                </ul>
+            </div>
+            <div class="hamburger-toggle">
+                <i class="fas fa-bars" id="hamburger" onclick="hamburger()"></i>
+                <div class="toggle-switch day" id="toggleSwitch">
+                    <div class="switch"></div>
+                    <div class="sun">☀️</div>
+                    <div class="cloud">☁️</div>
+                    <div class="moon">🌙</div>
+                    <div class="stars">✨</div>
+                  </div>
+            </div>
+        </div>
+    </header>
+
+<!-- Get in touch -->
+    <div class="get_in_touch">
+        <div class="social_side_container" onclick="social_links()">
+            <abbr title="Social Links"><i class="fas fa-th"></i></abbr>
+        </div>
+        <div class="social_links">
+            <ul class="social_links_list">
+                <li class="social_links_item sli1"><a href="https://www.facebook.com/alrifatsabbir" class="social_links_link" target="_blank"><abbr title="Facebook"><i class="fab fa-facebook-f"></i></abbr></a></li>
+                <li class="social_links_item sli2"><a href="https://www.instagram.com/alrifatsabbir" class="social_links_link" target="_blank"><abbr title="Instagram"><i class="fab fa-instagram"></i></abbr></a></li>
+                <li class="social_links_item sli3"><a href="https://www.linkedin.com/in/alrifatsabbir" class="social_links_link" target="_blank"><abbr title="LinkedIn"><i class="fab fa-linkedin"></i></abbr></a></li>
+                <li class="social_links_item sli4"><a href="https://www.github.com/alrifatsabbir" class="social_links_link" target="_blank"><abbr title="Github"><i class="fab fa-github"></i></abbr></a></li>
+                <li class="social_links_item sli5"><a href="https://www.twitter.com/alrifatsabbir" class="social_links_link" target="_blank"><abbr title="X"><i class="fa-brands fa-x-twitter"></i></abbr></a></li>
+                <li class="social_links_item sli6"><a href="https://www.reddit.com/u/alrifatsabbir" class="social_links_link" target="_blank"><abbr title="Reddit"><i class="fab fa-reddit"></i></abbr></a></li>
+                <li class="social_links_item sli7"><a href="https://dribbble.com/alrifatsabbir" class="social_links_link" target="_blank"><abbr title="Dribbble"><i class="fab fa-dribbble"></i></abbr></a></li>
+                <li class="social_links_item sli8"><a href="https://www.behance.net/alrifatsabbir" class="social_links_link" target="_blank"><abbr title="Behance"><i class="fab fa-behance-square"></i></abbr></a></li>
+                <li class="social_links_item sli9"><a href="https://www.pinterest.com/alrifatsabbir" class="social_links_link" target="_blank"><abbr title="Pinterest"><i class="fab fa-pinterest"></i></abbr></a></li>
+                <li class="social_links_item sli10"><a href="https://www.youtube.com/@codearcglobal" class="social_links_link" target="_blank"><abbr title="Youtube"><i class="fab fa-youtube"></i></abbr></a></li>
+                <li class="social_links_item sli11"><a href="https://codepen.io/alrifatsabbir" class="social_links_link" target="_blank"><abbr title="Codepen"><i class="fab fa-codepen"></i></abbr></a></li>
+                <li class="social_links_item sli12"><a href="https://jsfiddle.net/u/alrifatsabbir/fiddles/" class="social_links_link" target="_blank"><abbr title="JS Fiddle"><i class="fab fa-jsfiddle"></i></abbr></a></li>
+                <li class="social_links_item sli13"><a href="https://www.freecodecamp.org/alrifatsabbir" class="social_links_link" target="_blank"><abbr title="Free Code Camp"><i class="fab fa-free-code-camp"></i></abbr></a></li>
+                <li class="social_links_item sli14"><a href="https://www.hackerrank.com/alrifatsabbir" class="social_links_link" target="_blank"><abbr title="Hacker Rank"><i class="fab fa-hackerrank"></i></abbr></a></li>
+                <li class="social_links_item sli15"><a href="https://www.kaggle.com/alrifatsabbir" class="social_links_link" target="_blank"><abbr title="Kaggle"><i class="fab fa-kaggle"></i></abbr></a></li>
+                <li class="social_links_item sli16"><a href="https://stackoverflow.com/users/24326530/alrifatsabbir" class="social_links_link" target="_blank"><abbr title="Stack Overflow"><i class="fab fa-stack-overflow"></i></abbr></a></li>
+                <li class="social_links_item sli17"><a href="https://www.medium.com/@alrifatsabbir" class="social_links_link" target="_blank"><abbr title="Medium"><i class="fab fa-medium-m"></i></abbr></a></li>
+                <li class="social_links_item sli18"><a href="https://www.quora.com/profile/Al-Rifat-Sabbir" class="social_links_link" target="_blank"><abbr title="Quora"><i class="fab fa-quora"></i></abbr></a></li>
+                <li class="social_links_item sli19"><a href="https://www.tumblr.com/codearc" class="social_links_link" target="_blank"><abbr title="Tumblr"><i class="fab fa-tumblr"></i></abbr></a></li>
+                <li class="social_links_item sli20"><a href="https://www.twitch.tv/alrifatsabbir" class="social_links_link" target="_blank"><abbr title="Twitch"><i class="fab fa-twitch"></i></abbr></a></li>
+                <li class="social_links_item sli21"><a href="https://www.buymeacoffee.com/alrifatsabbir" class="social_links_link" target="_blank"><abbr title="Buy Me A Coffee"><i class="fas fa-coffee"></i></abbr></a></li>
+            </ul>
+        </div>
+        <div class="contact_me">
+            <div class="contact_side_container" onclick="contact_links()">
+                <abbr title="Contact Me"><i class="fas fa-comment"></i></abbr>
+            </div>
+            <div class="contact_me_links">
+                <ul class="contact_me_list">
+                    <li class="list_contact"><a href="https://m.me/Al.Rifat.Sabbir" id="messenger" target="_blank"><abbr title="Messenger"><i class="fab fa-facebook-messenger"></i></abbr></a></li>
+                    <li class="list_contact"><a href="https://wa.me/+8801688525596" id="whatsapp" target="_blank"><abbr title="Whatsapp"><i class="fab fa-whatsapp"></i></abbr></a></li>
+                    <li class="list_contact"><a href="mailto:alrifatsabbir@yahoo.com" id="email" target="_blank"><abbr title="Email"><i class="fas fa-envelope"></i></abbr></a></li>
+                    <li class="list_contact"><a href="tel:+8801688525596" id="phone" target="_blank"><abbr title="Phone"><i class="fas fa-phone-square"></i></abbr></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<!-- Home -->
+    <div class="temporary">
+        This website is under construction. Please visit later...
+    </div>
+
+
+
+
+<!-- Footer -->
+    <span class="copyright">
+        &copy; 2025 Al Rifat Sabbir. All Rights Reserved.
+    </span>
+<!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
