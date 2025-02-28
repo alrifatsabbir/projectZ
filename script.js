@@ -59,7 +59,7 @@ toggleSwitch.addEventListener('click', function() {
         toggleSwitch.classList.add('night');
         body.style.backgroundColor = '#2C3E50';
         header.style.backgroundColor = '#34495E51';
-        logoImage.src = '/assets/test2.1.png';
+        logoImage.src = ' /assets/test2.1.png';
         contactSideContainer.style.backgroundColor = '#fdfffd';
         socialSideContainer.style.backgroundColor = '#fdfffd';
         contactIcon.style.color = '#34495E';
