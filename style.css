@@ -479,7 +479,7 @@ body{
     -o-transition: color 0.4s ease-in-out;
 }
 #home{
-    background: linear-gradient(to left, #d3d3d31a, #b1b1b133), url('/assets/hero_bg.jpg') no-repeat top center/contain;
+    background: linear-gradient(to left, #d3d3d31a, #b1b1b133), url('/projectZ/assets/hero_bg.jpg') no-repeat top center/contain;
     position: relative;
     top: 0;
     background-attachment: fixed;

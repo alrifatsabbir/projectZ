@@ -16,7 +16,7 @@ const downloadResumeButton = document.getElementById('resume_btn_cta');
 if (downloadResumeButton) {
     downloadResumeButton.addEventListener('click', function() {
         const link = document.createElement('a');
-        link.href = '/assets/resume.pdf';
+        link.href = '/projectZ/assets/resume.pdf';
         link.download = 'resume.pdf';
         document.body.appendChild(link);
         link.click();
@@ -93,8 +93,8 @@ toggleSwitch.addEventListener('click', function() {
         toggleSwitch.classList.add('night');
         body.style.background = 'linear-gradient(90deg, #2C3E50,#0c0c0f)';
         header.style.backgroundColor = '#34495E51';
-        logoImage.src = '/assets/logo2.png';
-        home.style.background = 'linear-gradient(to left,#0c0c0f33, #0c0c0f75), url("/assets/hero_bg.jpg") no-repeat center/cover';
+        logoImage.src = '/projectZ/assets/logo2.png';
+        home.style.background = 'linear-gradient(to left,#0c0c0f33, #0c0c0f75), url("/projectZ/assets/hero_bg.jpg") no-repeat center/cover';
         contactSideContainer.style.backgroundColor = '#fdfffd';
         socialSideContainer.style.backgroundColor = '#fdfffd';
         contactIcon.style.color = '#34495E';
@@ -146,13 +146,13 @@ toggleSwitch.addEventListener('click', function() {
         toggleSwitch.classList.add('day');
         body.style.background = 'linear-gradient(90deg, #bdd2af, #fdfffd)';
         header.style.backgroundColor = '#f8f9fa51';
-        logoImage.src = '/assets/logo1.png';
+        logoImage.src = '/projectZ/assets/logo1.png';
         contactSideContainer.style.backgroundColor = '#223233';
         socialSideContainer.style.backgroundColor = '#223233';
         contactIcon.style.color = '#fdfffd';
         socialIcon.style.color = '#fdfffd';
         copyRight.style.color = '#000';
-        home.style.background = 'linear-gradient(to left, #d3d3d31a, #b1b1b133), url("/assets/hero_bg.jpg") no-repeat center/cover';
+        home.style.background = 'linear-gradient(to left, #d3d3d31a, #b1b1b133), url("/projectZ/assets/hero_bg.jpg") no-repeat center/cover';
         resumeDownloadBtn.style.backgroundColor = '#ddffdd';
         resumeDownloadBtn.onmouseover = function (){
             resumeDownloadBtn.style.backgroundColor = 'transparent';
